@@ -26,7 +26,13 @@ class nxcIncludeCacheBlock extends nxcCacheBlock
             $tpl->setVariable( $key, $value );
         }
 
-        return $tpl->fetch( $this->variable( 'uri' ) );
+        $uri = $this->variable( 'uri' );
+        if ( strpos( $uri, 'design:' ) === false )
+        {
+            $uri = 'design:' . $uri;
+        }
+
+        return $tpl->fetch( $uri );
     }
 }
 ?>
