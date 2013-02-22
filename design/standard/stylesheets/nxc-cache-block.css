@@ -1,0 +1,17 @@
+/**
+ * Styles for onload ajax calls
+ *
+ * @author VaL
+ * @copyright Copyright (C) 2011 NXC AS
+ * @license GNU GPL v2
+ * @package nxc-cache-block
+ */
+
+a.nxc-cache-block-ajax-onload-link
+{
+    display: none;
+}
+a.nxc-cache-block-ajax-onclick-link
+{
+    display: none;
+}

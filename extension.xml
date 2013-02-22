@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>NXC Cache Block</name>
+        <version>0.1</version>
+        <copyright>Copyright (C) 2011 NXC AS</copyright>
+        <license>GNU General Public License v2.0</license>
+    </metadata>
+
+    <dependencies>
+        <requires>
+            <extension name="ezjscore" />
+            <extension name="nxc_tool" />
+        </requires>
+    </dependencies>
+
+</software>
